@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* style.css */
+
+#wrap{
+    position: relative;
+    min-width: 1240px;
+}
+/* header */
+.headIn{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.logo a{
+    display: block;
+    width: 132px;
+    height: 21px;
+    background-image: url(../img/header_logo.svg);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+.nav ul{
+    display: flex;
+}
+.nav li a{
+    margin-left: 30px;
+    font-size: 16px;
+    color: #222;
+}
+/* body */
+/* body1 */
+.body1{
+    position: relative;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.body1 .bg .bg{
+    margin-left: 286px;
+}
+.body1 .bg .img{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.body1 .txt{
+    position: absolute;
+    top: 245px;
+}
+.txt .txt1{
+    font-size: 16px;
+    color: rgba(100, 100, 100, .8);
+    margin-bottom: 20px;
+}
+.txt .txt2{
+    font-size: 30px;
+    line-height: 1.5em;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.txt .btnMore button{
+    font-size: 16px;
+    color: blue;
+}
+.btnMore a{
+    display: inline-block;
+    margin-left: -5px;
+    width: 24px;
+    height: 25px;
+    background-image: url(../img/icon_arrow_more_md.svg);
+    background-repeat: no-repeat;
+    background-size: 19px 20px;
+    background-position: center;
+    text-indent: -9999px;
+}
+.txt .btnMore button::after{
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -30px;
+    margin-top: -8px;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background-color: rgba(70, 97, 150, .2);
+}
+/* body2 */
+.body2{
+    background-color: #fbf6f0;
+}
+.body2In{
+    position: relative;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 150px;
+    margin-bottom: 100px;
+}
+.mainTxt{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    margin-left: -300px;
+}
+.mainTxt h1{
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+.beds{
+    padding-top: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.beds div{
+    width: 473px;
+}
+.beds img{
+    margin-bottom: 30px;
+}
+.beds p{
+    text-align: left;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(130, 130, 130, 1);
+}
+.beds .bedR{
+    margin-top: -200px;
+}
+/* body3 */
+.body3In{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.servTitle{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.servTitle h1{
+    font-size: 30px;
+}
+.servList ul{
+    display: flex;
+    justify-content: space-between;
+}
+.servList li{
+    width: 450px;
+    margin-right: 50px;
+}
+.servList img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.servList .typeName{
+    font-size:20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.servList .typeDesc{
+    text-align: left;
+    font-size: 13px;
+    color: rgba(130, 130, 130, 1);
+    margin-bottom: 30px;
+}
+.servList .btnMore{
+    font-size: 13px;
+    color: blue;
+}
+.servList .btnMore::after{
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    vertical-align: top;
+    border-top: 1px solid blue;
+    border-right: 1px solid blue;
+    transform: rotate(45deg);
+    margin-top: 8px;
+}
+/* body4 */
+.body4{
+    height: 560px;
+    background-image: url(../img/sec_04_bg.jpg);
+    margin-bottom: 100px;
+}
+.body4In{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.recruit{
+    padding-top: 200px;
+}
+.recruit h1{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+.recruit .txt{
+    font-size: 14px;
+    line-height: 25px;
+    color: white;
+    margin-bottom: 50px;
+}
+.recruit .btnApply{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+.recruit a{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icon_arrow_more_md_wh.svg);
+    background-repeat: no-repeat;
+    background-position: right 3px top -1px;
+    text-indent: -9999px;
+}
+.recruit button::after{
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    margin-left: -42px;
+    margin-top: -11px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .2);
+}
+/* ftr */
+/* ftr1 */
+.ftr1{
+    margin-bottom: 100px;
+}
+.ftr1 .ftr1In{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.ftrTitle h1{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-top: 50px;
+}
+.ftrNav ul li{
+    margin-bottom: 20px;
+    text-align: right;
+}
+.ftrNav a{
+    color: #222;
+}
+/* ftr2 */
+.ftr2In{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+/* infoL */
+.ftr2In .infoL ul{
+    display: flex;
+    justify-content: space-between;
+}
+.ftr2In .infoL ul li{
+    margin-right: 30px;
+}
+.ftr2In .infoL p{
+    margin-bottom: 10px;
+}
+.ftr2In .infoL .txt1{
+    color: rgba(100, 100, 100, .8);
+}
+.ftr2In .infoL .txt2{
+    font-size: 16px;
+}
+/* infoR */
+.infoR .miscel{
+    display: flex;
+    margin-bottom: 10px;
+}
+.infoR .miscel p a, .copyright p{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: rgba(100, 100, 100, .8);
+}
+.infoR .privacy{
+    font-weight: 600;
+    color: #222;
+}
